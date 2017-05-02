@@ -1,0 +1,28 @@
+.colorpicker {
+  width: 110px;
+  .color {
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: red;
+    border-radius: 5px;
+    box-sizing: border-box;
+
+    &:nth-child(3n) {
+      margin-right: 0;
+    }
+
+    &--WHITE { background-color: white; border: 1px solid #e0e0e0; }
+    &--BLACK { background-color: black; }
+    &--BLUE { background-color: blue; }
+    &--GREEN { background-color: green; }
+    &--RED { background-color: red; }
+    &--PINK { background-color: pink; }
+
+    &--selected {
+      border: 2px solid #1CC7D0;
+    }
+  }
+}
